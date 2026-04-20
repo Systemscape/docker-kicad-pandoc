@@ -1,0 +1,26 @@
+Dockerfile
+  6708b067b5234849 1,3,5,7-11
+README.md
+  6708b067b5234849 3,8-9,18-20,22-26
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.0",
+  "base_commit_sha": "da485e0a32934194b9552e24600767d7d2fcd274",
+  "prompts": {
+    "6708b067b5234849": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019daa29-0b6e-7d80-a9ea-8268f9bf33c1",
+        "model": "gpt-5.4"
+      },
+      "human_author": "Joël Schulz-Andres",
+      "messages": [],
+      "total_additions": 25,
+      "total_deletions": 16,
+      "accepted_lines": 19,
+      "overriden_lines": 0,
+      "messages_url": "https://usegitai.com/cas/3b09368269e73d7456583383f1d8aba47d1a072e98c76178dedcd23da6bcd4eb"
+    }
+  }
+}
