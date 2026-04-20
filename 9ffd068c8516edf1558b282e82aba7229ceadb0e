@@ -1,0 +1,24 @@
+.github/workflows/publish.yml
+  4b790e5e9fbad377 13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.0",
+  "base_commit_sha": "9ffd068c8516edf1558b282e82aba7229ceadb0e",
+  "prompts": {
+    "4b790e5e9fbad377": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019daa5b-dc86-7ce1-ad67-f9fd907dc35e",
+        "model": "gpt-5.4"
+      },
+      "human_author": "Joël Schulz-Andres",
+      "messages": [],
+      "total_additions": 1,
+      "total_deletions": 1,
+      "accepted_lines": 1,
+      "overriden_lines": 0,
+      "messages_url": "https://usegitai.com/cas/74208184e99bdfd0e2ce72eb4b2fe789fe5837f56a3ab969d961a3b25734bea7"
+    }
+  }
+}
