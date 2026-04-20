@@ -10,7 +10,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository_owner }}/kicad9_and_pandoc
+  IMAGE_NAME: ${{ github.repository_owner }}/kicad10_and_pandoc
 
 jobs:
   build-and-push:
