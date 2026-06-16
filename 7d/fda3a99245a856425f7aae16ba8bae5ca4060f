@@ -1,0 +1,19 @@
+Dockerfile
+  s_88eb6e3e4f472f::t_4f8c716bbc0095 10-11
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.7",
+  "base_commit_sha": "7dfda3a99245a856425f7aae16ba8bae5ca4060f",
+  "prompts": {},
+  "sessions": {
+    "s_88eb6e3e4f472f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6521ac71-09de-4135-8f2f-3a7455cc2e0b",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Joël Schulz-Andres <joel@systemscape.de>"
+    }
+  }
+}
