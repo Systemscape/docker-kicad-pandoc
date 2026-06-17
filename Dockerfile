@@ -7,7 +7,7 @@ RUN apt-get -q update && \
     DEBIAN_FRONTEND=noninteractive apt-get -y install software-properties-common && \
     add-apt-repository --yes ppa:kicad/kicad-10.0-releases && \
     apt-get -q update && \
-    DEBIAN_FRONTEND=noninteractive apt-get -y install git kicad python3-pip python3-lxml zip pandoc texlive-latex-base texlive-latex-recommended texlive-fonts-recommended texlive-latex-extra texlive-fonts-extra texlive-xetex && \
+    DEBIAN_FRONTEND=noninteractive apt-get -y install git kicad python3-pip python3-lxml xvfb xdotool xclip x11-utils zip pandoc texlive-latex-base texlive-latex-recommended texlive-fonts-recommended texlive-latex-extra texlive-fonts-extra texlive-xetex && \
     python3 -m pip install --break-system-packages --no-cache-dir --no-compile kibot && \
     apt-get -y autoremove && \
     rm -rf /var/lib/apt/lists/* /*.deb

@@ -6,7 +6,7 @@ Docker image with KiCad 10, KiBot, Pandoc and LaTeX to be used with continuous i
 
 ```bash
 # KiCad 10
-docker run --rm --volume="$PWD:/mnt:z" -it ghcr.io/systemscape/kicad10_and_pandoc:latest
+docker run --rm --volume="$PWD:/mnt:z" -it ghcr.io/systemscape/kicad_and_pandoc:10
 # Run Kibot...
 ```
 
@@ -15,9 +15,9 @@ docker run --rm --volume="$PWD:/mnt:z" -it ghcr.io/systemscape/kicad10_and_pando
 Prerequisites: Setup [docker authentication for ghcr.io](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry#authenticating-to-the-container-registry)!
 
 ```bash
-# kicad10_and_pandoc
-docker build -t ghcr.io/systemscape/kicad10_and_pandoc:latest .
-docker push ghcr.io/systemscape/kicad10_and_pandoc:latest
+# kicad_and_pandoc
+docker build -t ghcr.io/systemscape/kicad_and_pandoc:latest .
+docker push ghcr.io/systemscape/kicad_and_pandoc:latest
 ```
 
 ## Notes
