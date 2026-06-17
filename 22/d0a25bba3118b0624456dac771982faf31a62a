@@ -1,0 +1,33 @@
+.github/workflows/publish.yml
+  s_a50dd4d8f35940::t_95441fc6163342 13
+  s_a50dd4d8f35940::t_8f77017e6c1ea8 45-46
+README.md
+  s_a50dd4d8f35940::t_bd387b6ce594d0 9
+  s_a50dd4d8f35940::t_709b54b94b5368 18-20
+Dockerfile
+  s_88eb6e3e4f472f::t_0be51fc28693c6 10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.7",
+  "base_commit_sha": "22d0a25bba3118b0624456dac771982faf31a62a",
+  "prompts": {},
+  "sessions": {
+    "s_88eb6e3e4f472f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6521ac71-09de-4135-8f2f-3a7455cc2e0b",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Joël Schulz-Andres <joel@systemscape.de>"
+    },
+    "s_a50dd4d8f35940": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b13de9a9-9eb7-405a-87e3-e415e6169069",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Joël Schulz-Andres <joel@systemscape.de>"
+    }
+  }
+}
